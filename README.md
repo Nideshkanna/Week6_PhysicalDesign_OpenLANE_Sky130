@@ -133,9 +133,3 @@ By the end of **Week 6**, I aim to:
 ✅ Connect all stages of digital design — from **RTL** to **verified layout**
 
 ---
-
-**Next Step →**
-Move to  to begin with the first experiment:
-🌐 *Inception of Open-Source EDA, OpenLANE and Sky130 PDK*
-
----
