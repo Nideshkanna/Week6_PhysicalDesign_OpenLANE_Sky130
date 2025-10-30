@@ -96,13 +96,9 @@ DIEAREA ( 0 0 ) ( 660685 671405 )
 1000 unit distance = 1 micron
 ```
 
-$[
-\begin{aligned}
-Die\ Width &= \frac{660685}{1000} = 660.685\ \mu m\
-Die\ Height &= \frac{671405}{1000} = 671.405\ \mu m\
-Area &= 660.685 \times 671.405 = 443587.21\ \mu m^2
-\end{aligned}
-]$
+**Die Width** = 660685 / 1000 = 660.685 μm  
+**Die Height** = 671405 / 1000 = 671.405 μm  
+**Area** = 660.685 × 671.405 = 443,587.21 μm²
 
 
 ![DEF File Content](images/04.png)
