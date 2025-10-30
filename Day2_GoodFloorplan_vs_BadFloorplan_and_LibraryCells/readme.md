@@ -236,5 +236,7 @@ exit  ;# Exit Docker
 ## 🔗 **Next Step**
 
 ➡️ Proceed to **[Day 3 — Design Library Cell using Magic Layout and ngspice Characterization](../Day3_Design_LibraryCell_Magic_ngspice/readme.md)**
+
 Here, you’ll **design your own standard cell** (like a CMOS inverter), create its **layout in Magic**, perform **DRC/LVS checks**, extract its **SPICE netlist**, and run **ngspice simulations** to measure **delay, rise/fall times, and power**—building the foundation for custom cell libraries.
+
 ---
