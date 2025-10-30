@@ -32,8 +32,8 @@ The workshop is divided into five structured days, each focusing on a key stage 
 
 | **Day**   | **Topic**                    | **Focus Area**                                                 |
 | --------- | ---------------------------- | -------------------------------------------------------------- |
-| **[Day1](./Day1_Inception_OpenSourceEDA_OpenLANE_Sky130/readme.md)** | Inception of Open-Source EDA | Understanding the OpenLANE environment and Sky130 PDK          |
-| **Day 2** | Floorplanning Concepts       | Comparing good vs bad floorplans and exploring library cells   |
+| **[Day 1](./Day1_Inception_OpenSourceEDA_OpenLANE_Sky130/readme.md)** | Inception of Open-Source EDA | Understanding the OpenLANE environment and Sky130 PDK          |
+| **[Day 2](./Day2_GoodFloorplan_vs_BadFloorplan_and_LibraryCells/readme.md)** | Floorplanning Concepts       | Comparing good vs bad floorplans and exploring library cells   |
 | **Day 3** | Standard Cell Design         | Creating and characterizing a cell using Magic and Ngspice     |
 | **Day 4** | Timing Analysis & Clock Tree | Running pre-layout STA and learning about clock tree synthesis |
 | **Day 5** | Routing & Sign-off           | Completing the RTL-to-GDS flow with TritonRoute and OpenSTA    |
