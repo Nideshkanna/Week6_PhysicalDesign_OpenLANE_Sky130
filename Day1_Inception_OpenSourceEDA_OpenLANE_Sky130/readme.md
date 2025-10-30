@@ -183,11 +183,11 @@ Flop\ Ratio = \frac{Number\ of\ DFFs}{Total\ Cells} = \frac{1613}{14876} = 0.108
 
 ---
 
-## 📚 SUMMARY
+### 📚 SUMMARY
 
-On **Day 1**, I explored the **OpenLANE environment** and the **Sky130 PDK**, understanding how open-source EDA tools enable a complete RTL-to-GDSII flow.
-I successfully prepared the **picorv32a** reference design and executed the **synthesis stage**, analyzing the **Yosys reports** to derive the **flop ratio** and logic composition.
+On Day 1, I successfully explored the OpenLANE environment and the Sky130 PDK, learning how open-source EDA tools together achieve a complete RTL-to-GDSII flow.
+I prepared the picorv32a reference design, executed the synthesis stage, and analyzed the Yosys reports to understand logic composition and flop ratio.
 
-This established a strong foundation for the next stages — **floorplanning, placement, clock-tree synthesis, and routing** — in the upcoming days.
+This marked the foundation of the physical design process, paving the way for deeper exploration of floorplanning, placement, and clock-tree synthesis in the following sessions.
 
----
+🔗 Next Step: Proceed to [Day 2 → Good Floorplan vs Bad Floorplan and Library Cells](../Day2_GoodFloorplan_vs_BadFloorplan_and_LibraryCells/readme.md)
