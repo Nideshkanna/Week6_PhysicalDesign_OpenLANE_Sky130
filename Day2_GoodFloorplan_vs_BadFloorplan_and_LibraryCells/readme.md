@@ -18,18 +18,14 @@ Chip floorplanning is the process of arranging **macros, standard cells, and I/O
 
 #### ➤ Utilization Factor
 
-$[
-Utilization\ Factor = \frac{Area\ used\ by\ Standard\ Cells}{Total\ Core\ Area}
-]$
+$[Utilization\ Factor = \frac{Area\ used\ by\ Standard\ Cells}{Total\ Core\ Area}]$
 
 Typical range: **0.5 – 0.7 (50 – 70 %)**
 A good utilization factor leaves sufficient whitespace for routing and clock-tree insertion.
 
 #### ➤ Aspect Ratio
 
-$[
-Aspect\ Ratio = \frac{Height}{Width}
-]$
+$[Aspect\ Ratio = \frac{Height}{Width}]$
 
 A square-like core (aspect ratio ≈ 1) helps achieve uniform routing and power balance.
 
