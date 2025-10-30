@@ -183,11 +183,23 @@ Flop\ Ratio = \frac{Number\ of\ DFFs}{Total\ Cells} = \frac{1613}{14876} = 0.108
 
 ---
 
-### 📚 SUMMARY
+### 🧠 **Summary Table — Day 1 Key Concepts**
 
-On Day 1, I successfully explored the OpenLANE environment and the Sky130 PDK, learning how open-source EDA tools together achieve a complete RTL-to-GDSII flow.
-I prepared the picorv32a reference design, executed the synthesis stage, and analyzed the Yosys reports to understand logic composition and flop ratio.
+| Concept                 | Key Takeaway                                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| **OpenLANE Flow**       | An open-source RTL-to-GDSII automation framework integrating multiple EDA tools                         |
+| **Sky130 PDK**          | The process design kit providing device models, rules, and libraries for layout and simulation          |
+| **Design Preparation**  | The `prep -design picorv32a` command initializes directories and configurations for the run             |
+| **Synthesis**           | Converts Verilog RTL to gate-level netlist using Yosys and standard-cell libraries                      |
+| **Yosys Reports**       | Provide key metrics such as number of cells, flops, and logic distribution for area and timing analysis |
+| **Flop Ratio Analysis** | Helps understand sequential-to-combinational logic balance in the design                                |
 
-This marked the foundation of the physical design process, paving the way for deeper exploration of floorplanning, placement, and clock-tree synthesis in the following sessions.
+---
 
-🔗 Next Step: Proceed to [Day 2 → Good Floorplan vs Bad Floorplan and Library Cells](../Day2_GoodFloorplan_vs_BadFloorplan_and_LibraryCells/readme.md)
+## 🔗 **Next Step**
+
+➡️ Proceed to **[Day 2 — Good Floorplan vs Bad Floorplan and Library Cells](../Day2_GoodFloorplan_vs_BadFloorplan_and_LibraryCells/readme.md)**
+Here, you’ll explore **chip floorplanning fundamentals**, understand **utilization, aspect ratio, and power planning**, and perform **floorplan and placement runs** in OpenLANE—visualizing results in **Magic** while learning how good design practices improve chip performance and manufacturability.
+
+---
+
