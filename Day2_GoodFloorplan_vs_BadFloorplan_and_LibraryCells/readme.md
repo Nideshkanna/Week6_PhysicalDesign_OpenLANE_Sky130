@@ -85,6 +85,8 @@ This generates the **floorplan DEF file**, which contains die area, core dimensi
 
 ![Floorplan Run Output](images/03.png)
 
+![Floorplan Run Output](images/03a.png)
+
 ---
 
 ### 📏 Die Area Calculation
@@ -145,6 +147,8 @@ run_placement
 ```
 
 ![Placement Terminal Run](images/06.png)
+
+![Placement Terminal Run](images/06a.png)
 
 ---
 
