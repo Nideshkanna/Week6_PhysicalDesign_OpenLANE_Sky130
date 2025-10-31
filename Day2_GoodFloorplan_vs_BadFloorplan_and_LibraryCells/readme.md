@@ -172,7 +172,32 @@ magic -T $PDK_ROOT/sky130A/libs.tech/magic/sky130A.tech \
 Cell design involves **schematic creation**, **layout design**, and **DRC/LVS verification**.
 Each standard cell is designed once and reused during synthesis and placement.
 
-![Cell Design Flow](images/08.png)
+
+```mermaid
+%% Cell Design Flow Diagram %%
+%%{
+  init: {
+    'theme': 'neutral',
+    'themeVariables': {
+      'textColor': '#000000',
+      'fontSize': '18px'
+    }
+  }
+}%%
+flowchart LR
+    A[Specification] --> B[Schematic Design]
+    B --> C[Simulation & Verification]
+    C --> D[Layout Design]
+    D --> E[DRC & LVS Verification]
+    E --> F[Characterization & Library Creation]
+
+    style A fill:#f8cecc,stroke:#000000,stroke-width:3px
+    style B fill:#fff2cc,stroke:#000000,stroke-width:3px
+    style C fill:#d5e8d4,stroke:#000000,stroke-width:3px
+    style D fill:#cce5ff,stroke:#000000,stroke-width:3px
+    style E fill:#fa6800,stroke:#000000,stroke-width:3px
+    style F fill:#ff9999,stroke:#000000,stroke-width:3px
+```
 
 ---
 
@@ -189,7 +214,31 @@ Characterization converts the transistor-level design into **timing, power, and 
 5. Model Generation
 6. Verification
 
-![Characterization Flow](images/09.png)
+```mermaid
+%% Characterization Flow Diagram %%
+%%{
+  init: {
+    'theme': 'neutral',
+    'themeVariables': {
+      'textColor': '#000000',
+      'fontSize': '18px'
+    }
+  }
+}%%
+flowchart TB
+    A[Netlist Extraction] --> B[Specification of Parameters]
+    B --> C[Model Selection]
+    C --> D[SPICE Simulations & Measurements]
+    D --> E[Model Generation]
+    E --> F[Verification & Validation]
+
+    style A fill:#f8cecc,stroke:#000000,stroke-width:3px
+    style B fill:#fff2cc,stroke:#000000,stroke-width:3px
+    style C fill:#d5e8d4,stroke:#000000,stroke-width:3px
+    style D fill:#cce5ff,stroke:#000000,stroke-width:3px
+    style E fill:#fa6800,stroke:#000000,stroke-width:3px
+    style F fill:#ff9999,stroke:#000000,stroke-width:3px
+```
 
 ---
 
