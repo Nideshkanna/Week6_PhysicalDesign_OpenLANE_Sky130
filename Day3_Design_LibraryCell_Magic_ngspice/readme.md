@@ -173,14 +173,16 @@ ngspice sky130_inv.spice
 ngspice 1 -> plot Y vs time A
 ```
 
+![07](./images/07.png)
+
+![07a](./images/07a.png)
+
 The plot shows the **input (A)** and **output (Y)** waveforms over time.
 We can measure:
 
 * **Rise Time (t_r)**
 * **Fall Time (t_f)**
 * **Propagation Delay (t_pHL / t_pLH)**
-
-![07](./images/07.png)
 
 ---
 
