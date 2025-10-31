@@ -122,31 +122,38 @@ Open the generated `.spice` and ensure:
 **Minimal example SPICE snippet (example):**
 
 ```spice
-* SPICE file generated from sky130_inv.ext
+* SPICE3 file created from sky130_inv2.ext - technology: sky130A
+
 .option scale=0.01u
-
-.include ./libs/nshort.lib
 .include ./libs/pshort.lib
+.include ./libs/nshort.lib
 
-* Subcircuit (if ext produced .subckt) or device instances
-* ... subckt/instances ...
+* Inverter Cell (PMOS + NMOS)
+M1 Y A VPWR VPWR pshort_model.0 w=37 l=23 ad=1443 pd=152 as=1517 ps=156
+M2 Y A VGND VGND nshort_model.0 w=35 l=23 ad=1435 pd=152 as=1365 ps=148
 
-* Power rails
+* Power Supply
 VDD VPWR 0 3.3
 VSS VGND 0 0
 
-* Input stimulus (pulse)
-Va A VGND PULSE(0 3.3 0 10p 10p 1n 2n)
+* Input Pulse (0–3.3 V, 4 ns period)
+Va A VGND PULSE(0 3.3 0 0.1n 0.1n 2n 4n)
 
-* Transient analysis
-.tran 10p 6n
+* Load and Parasitics
+CO A Y 0.05f
+C1 Y VPWR 0.11f
+C2 A VPWR 0.07f
+C3 Y 0 2f
+C4 VPWR 0 0.59f
+
+.tran 1n 20n
 
 .control
 run
-* plot command (ngspice interactive)
-plot v(Y) vs time v(A)
+plot v(A) v(Y)
 .endc
 .end
+
 ```
 
 **Placeholders:**
