@@ -334,28 +334,6 @@ drc find
 
 ---
 
-## ✅ Results & example calculations
-
-**Die / layout checks** (if applicable) — show outputs or paths:
-
-* Extracted spice file: `vsdstdcelldesign/sky130_inv.spice` → placeholder `images/d3_06_magic_ext2spice.png`
-* ngspice plots and numerical results: `images/d3_09_ngspice_waveform.png`, `images/d3_13_traces_20_80.png`
-* DRC fixes recorded in `vsdstdcelldesign/drc_fix_notes.md` (commit this with your changes)
-
-**Example math block (rise time calculation)**
-
-```
-Tr = t(Vout crosses 80%) - t(Vout crosses 20%)
-If VDD = 3.3V --> V20 = 0.66V, V80 = 2.64V
-Example:
-t80 = 2.19981 ns
-t20 = 2.15739 ns
-Tr = 2.19981 - 2.15739 = 0.04242 ns = 42.42 ps
-```
-
----
-
-
 ## 🧾 Useful Magic / ngspice commands quick reference
 
 **Magic**
