@@ -46,8 +46,7 @@ cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/
 ls -la
 ```
 
-📸 **Image:** Cloning repository, copying Sky130 tech file, and verifying contents
-![repo\_setup](./images/day3_repo_setup.png)
+![01](./images/01.png)
 
 ---
 
@@ -61,8 +60,7 @@ Next, open the provided **inverter layout file** (`sky130_inv.mag`) using the Ma
 magic -T sky130A.tech sky130_inv.mag &
 ```
 
-📸 **Image:** Magic tool displaying the inverter layout
-![magic\_layout\_open](./images/day3_magic_open.png)
+![02](./images/02.png)
 
 ---
 
@@ -81,8 +79,7 @@ Loading DRC CIF style.
 Transistor width < 0.42um (diff/tap.2)
 ```
 
-📸 **Image:** DRC check window showing rule violations in the inverter layout
-![drc\_error](./images/day3_drc_error.png)
+![03](./images/03.png)
 
 ---
 
@@ -104,8 +101,7 @@ ext2spice cthresh 0 rthresh 0
 ext2spice
 ```
 
-📸 **Image:** Extraction and SPICE generation process in Magic
-![extract\_spice](./images/day3_extract_spice.png)
+![04](./images/04.png)
 
 ---
 
@@ -116,8 +112,7 @@ This file contains transistor instances, connections, and parasitic elements.
 
 📄 **Generated File:** `sky130_inv.spice`
 
-📸 **Image:** Viewing the generated SPICE file
-![generated\_spice](./images/day3_spice_generated.png)
+![05](./images/05.png)
 
 ---
 
@@ -157,8 +152,7 @@ run
 .end
 ```
 
-📸 **Image:** Modified SPICE file ready for simulation
-![modified\_spice](./images/day3_spice_modified.png)
+![06](./images/06.png)
 
 ---
 
@@ -186,8 +180,7 @@ We can measure:
 * **Fall Time (t_f)**
 * **Propagation Delay (t_pHL / t_pLH)**
 
-📸 **Image:** Transient simulation results — inverter output vs input
-![ngspice\_waveform](./images/day3_ngspice_waveform.png)
+![07](./images/07.png)
 
 ---
 
@@ -208,8 +201,7 @@ No errors found.
 %
 ```
 
-📸 **Image:** Final DRC check showing “No errors found”
-![drc\_clean](./images/day3_drc_clean.png)
+![08](./images/08.png)
 
 ---
 
