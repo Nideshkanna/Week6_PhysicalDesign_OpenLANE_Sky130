@@ -247,7 +247,7 @@ You successfully:
 
 ### 🔗 **Next Step**
 
-➡️ Proceed to **[Day 4 — LVS (Layout vs Schematic) and Parasitic Extraction](../Day4_LVS_Parasitics/readme.md)**
-You’ll verify **layout-to-schematic consistency** and learn how parasitic RC values influence circuit timing and power.
+➡️ Proceed to **[Day 4 — Pre-layout Timing Analysis and Importance of a Good Clock Tree](https://github.com/Nideshkanna/Week6_PhysicalDesign_OpenLANE_Sky130/blob/main/Day4_Pre-Layout_Timing_Analysis_and_Importance_of_a_Good_Clock_Tree/readme.md)**
+Learn how to **convert custom standard-cell layouts to LEF**, perform **timing modeling using delay tables**, and execute **static timing analysis (STA)** using **OpenSTA** and **TritonCTS** for clock tree synthesis.
 
 ---
