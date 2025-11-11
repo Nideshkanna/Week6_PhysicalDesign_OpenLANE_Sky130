@@ -216,7 +216,7 @@ Your design is now timing-verified and clock-balanced — ready for **post-layou
 
 ### 🔗 **Next Step**
 
-➡️ Proceed to **Day 5 — Final Steps for RTL-to-GDS using TritonRoute and OpenSTA**
+➡️ Proceed to **[Day 5 — Final Steps for RTL-to-GDS using TritonRoute and OpenSTA](https://github.com/Nideshkanna/Week6_PhysicalDesign_OpenLANE_Sky130/blob/main/Day5_Final_steps_for_RTL2GDS_using_tritonRoute_and_openSTA/readme.md)**
 Explore how the **detailed routing stage** completes physical implementation and how **post-layout timing verification** ensures sign-off quality results using **OpenSTA**.
 
 ---
