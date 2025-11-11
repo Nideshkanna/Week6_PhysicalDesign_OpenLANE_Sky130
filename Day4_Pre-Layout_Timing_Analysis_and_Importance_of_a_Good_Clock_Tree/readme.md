@@ -92,7 +92,7 @@ Example:
 
 These tables enable synthesis tools to accurately estimate timing during optimization.
 
-![03](./images/03_delay_table.png)
+![03](./images/03.png)
 
 ---
 
@@ -115,8 +115,6 @@ link_design <top_module>
 create_clock -period 10 [get_ports clk]
 report_checks -path_delay min_max
 ```
-
-![04](./images/04_sta_ideal_clock.png)
 
 ### 📊 Timing Metrics
 
@@ -144,8 +142,8 @@ run_cts
 
 This uses an **H-Tree algorithm** to insert clock buffers automatically.
 
-![05](./images/05_cts_run.png)
-![06](./images/06_cts_network.png)
+![05](./images/05.png)
+![06](./images/06.png)
 
 ### 📘 Post-CTS Analysis
 
@@ -172,7 +170,7 @@ Observe:
 | Skew imbalance  | Re-run CTS with balanced buffer insertion           |
 | High TNS        | Re-synthesize with tighter constraints              |
 
-![07](./images/07_timing_fix.png)
+![07](./images/07.png)
 
 ---
 
