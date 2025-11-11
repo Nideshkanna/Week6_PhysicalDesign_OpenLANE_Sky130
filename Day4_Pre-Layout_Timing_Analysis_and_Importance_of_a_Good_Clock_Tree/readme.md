@@ -46,7 +46,7 @@ Example:
 | met1  | X         | 0.24   | 0.48  |
 | met1  | Y         | 0.16   | 0.34  |
 
-![01](./images/01_tracks.png)
+![01](./images/01.png)
 
 ### 📘 Conversion Steps
 
@@ -59,7 +59,9 @@ magic -T sky130A.tech sky130_inv.mag
 lef write sky130_inv.lef
 ```
 
-![02](./images/02_lef_export.png)
+![02](./images/02a.png)
+
+![02](./images/02b.png)
 
 ---
 
