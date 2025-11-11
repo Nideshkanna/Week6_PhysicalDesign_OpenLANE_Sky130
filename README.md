@@ -36,7 +36,7 @@ The workshop is divided into five structured days, each focusing on a key stage 
 | **[Day 2](./Day2_GoodFloorplan_vs_BadFloorplan_and_LibraryCells/readme.md)** | Floorplanning Concepts       | Comparing good vs bad floorplans and exploring library cells   |
 | **[Day 3](./Day3_Design_LibraryCell_Magic_ngspice/readme.md)** | Standard Cell Design         | Creating and characterizing a cell using Magic and Ngspice     |
 | **[Day 4](./Day4_LVS_Parasitics/readme.md)** | Timing Analysis & Clock Tree | Running pre-layout STA and learning about clock tree synthesis |
-| **Day 5** | Routing & Sign-off           | Completing the RTL-to-GDS flow with TritonRoute and OpenSTA    |
+| **[Day 5](./Day5_Final_steps_for_RTL2GDS_using_tritonRoute_and_openSTA/readme.md)** | Routing & Sign-off           | Completing the RTL-to-GDS flow with TritonRoute and OpenSTA    |
 
 Each day has its own folder (e.g., `Day1/`, `Day2/`…) containing:
 
