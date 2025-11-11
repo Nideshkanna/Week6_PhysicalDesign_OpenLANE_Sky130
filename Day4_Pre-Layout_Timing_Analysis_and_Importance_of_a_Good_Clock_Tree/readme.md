@@ -142,8 +142,9 @@ run_cts
 
 This uses an **H-Tree algorithm** to insert clock buffers automatically.
 
+![04](./images/04.png)
+
 ![05](./images/05.png)
-![06](./images/06.png)
 
 ### 📘 Post-CTS Analysis
 
@@ -170,7 +171,7 @@ Observe:
 | Skew imbalance  | Re-run CTS with balanced buffer insertion           |
 | High TNS        | Re-synthesize with tighter constraints              |
 
-![07](./images/07.png)
+![06](./images/06.png)
 
 ---
 
